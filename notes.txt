@@ -1,0 +1,9 @@
+possible replace
+
+links:
+  - mongo
+
+with
+
+external_links:
+  - mongo

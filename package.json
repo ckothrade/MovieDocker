@@ -1,0 +1,26 @@
+{
+  "name": "moviedocker",
+  "version": "1.0.0",
+  "description": "A Docker, Node, MongoDB project for a movie database.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckothrade/MovieDocker.git"
+  },
+  "author": "Kothrade, Cal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ckothrade/MovieDocker/issues"
+  },
+  "homepage": "https://github.com/ckothrade/MovieDocker#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.0"
+  }
+}
