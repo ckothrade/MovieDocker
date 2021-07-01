@@ -6,6 +6,8 @@ services:
     build: .
     ports:
       - '80:3000'
+    volumes:
+      - .:/usr/src/app
     links: 
       - mongo
   mongo: 
@@ -13,3 +15,9 @@ services:
     image: mongo
     ports: 
       - '27017:27017'
+    volumes: 
+      - mongodb:/data/db 
+
+volumes:
+  mongodb:
+    
